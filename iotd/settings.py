@@ -66,16 +66,16 @@ if 'RDS_DB_NAME' in os.environ:
         }
     }
 else:
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'iotd',
-        'USER': 'chucklapress',
-        'PASSWORD': 'postgres',
-        'HOST' : 'localhost',
-        'PORT' : '5432',
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'iotd',
+            'USER': 'chucklapress',
+            'PASSWORD': 'postgres',
+            'HOST' : 'localhost',
+            'PORT' : '5432',
+        }
     }
-}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
